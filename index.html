@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--font Awesome-->
+    <script src="https://kit.fontawesome.com/ba12d81664.js"></script>
+    <!--Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS-->
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <!--Wrapper-->
+    <main class="container">
+        <!--Header-->
+        <header>
+            <p id="userNameHeader">Hello user</p>
+        </header>
+        <!--First section to appear-->
+        <section>
+            <!--Request Name-->
+            <form>
+                <h2>Welcome !</h2>
+                <h3>What's your name:</h3>
+                <input type="text"><h3><i class="far fa-user-circle"></i></h3>
+            </form>
+        </section>
+        <!--weather widget-->
+        <aside>
+            <!--Weather-->
+            <p>City name: </p>
+            <input type="text"  value="" id="searchTxt"><h3 id="searchBtn" class="btn btn-success"><i class="fas fa-search" > Search</i></h3>
+            <span><p>City:<p id="cityName"></p> </p></span>
+            <span><img alt="" id="icon" src=""></span>
+            <span><p></p><p id="currentDescript"></p></span>
+            <span><p>Current temp: </p><p id="currentTemp"></p></span>
+            <span><p>presceptation: </p><p id="currentPrecept"></p></span>
+            <span><p>Hint: </p></span>
+        </aside>
+        <!--Right side widgets-->
+        <article>
+            <!--Mbta-->
+        
+
+        </article>
+    
+    <!--End Wraper-->    
+    </main>
+
+<!--Jquery CDN-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>    
+<!--weather js-->
+<script src="assets/javascript/weather.js"> </script>
+<!--MBTA-->
+<script src="assets/javascript/mbta.js"></script>
+</body>
+
+</html>
